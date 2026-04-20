@@ -41,9 +41,11 @@ def product_lookup(product_name: str) -> str:
     """
     with open("products.json") as f:
         catalog = json.load(f)
+
     if product_name in catalog:
         return str(catalog[product_name])
-    return f"Product not found. Available products: {', '.join(catalog.keys())}"
+
+    return str(list(catalog.keys()))
 
 
 def load_questions(path: str = "math_questions.md") -> list[str]:
