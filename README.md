@@ -2,6 +2,12 @@
 
 A ReAct agent that solves questions using tool calls.
 
+# My output (Tengye Lyu's video for homework 3)
+## Video Link:
+https://youtu.be/vuFWuJkAC8E
+
+
+
 ## Setup
 
 1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/) if you don't have it.
@@ -34,6 +40,5 @@ The agent will work through each question in `math_questions.md` and print the R
 - `math_questions.md` - the questions the agent solves
 - `.env.example` - template for your API key
 
-## Video Link:
-https://youtu.be/vuFWuJkAC8E
+
 
